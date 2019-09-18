@@ -1,0 +1,129 @@
+
+.link_menu {
+    margin: 0px;
+    list-style-type: none;
+    opacity: 1;
+}
+
+.link_menu li {
+        list-style-type: none;
+        margin: 0px;
+    display: inline;
+    text-decoration-color: #ff4500;
+    opacity: 1;
+}
+li{
+    list-style-type: none;
+    margin: 0px;
+    float: left;
+}
+li a{
+    border-radius: 20px;
+    list-style-type: none;
+    margin: 0px;
+    text-align: center;
+    display: block;
+    width: 200px;
+    height: 60px;
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: #00008b;
+}
+li a:hover:not(.active){
+background-color: #000000;
+    opacity: 0.75;
+        color: #ff4500;
+}
+.active{
+    background-color: #191970;
+}
+.box {
+        position: fixed;
+        border:none;
+        border-radius: 4px;
+        background-color: #dcdcdc;
+        opacity:1;
+        top :15px;
+        width:1250px;
+        height: 90px;
+        left: 55px;
+        right: 20px;
+        padding: 0px;
+}
+
+.login {
+            color: #008000;
+            position: relative;
+            border: none;
+            border-radius: 20px;
+            background-color: #d3d3d3;
+            top: 200px;
+            left:460px;
+            text-align: center;
+            width:400px;
+            height: 300px;
+            
+}
+.cgpa_box{
+            color: green;
+            position: relative;
+            border: none;
+            border-radius: 20px;
+            background-color: #d3d3d3;
+            top: 200px;
+            left:500px;
+            text-align: center;
+            width:400px;
+height: 200px;
+}
+
+form {
+    display: inline-block;
+    vertical-align: middle;
+    
+
+}
+
+div {
+    background-color: #ffffff;
+    padding: 20px;
+    width:1260px;
+    height: 450px;
+    position: relative;
+    border: none;
+    border-radius: 4px;
+    top :110px;
+    left :20px;
+    overflow: auto;
+    margin: 0%;
+}
+.the_main_php{
+    background-color: #ffffff;
+    padding: 20px;
+    width:1100px;
+    height: 420px;
+    position: relative;
+    border: none;
+    border-radius: 4px;
+    top :130px;
+    left :50px;
+    overflow: auto;
+    padding-left: 100px;
+}
+
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+h3 {
+        text-align: center;
+color: cadetblue;
+}
+
+
+.cgpa_headding {
+color: #00008b;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <title>OEpro</title>
+    <link rel="stylesheet" href="project_CSS.css">
+    <style>
+    body {
+    height: 100%;
+        background-color: #00008e;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+</head>
+
+<body>
+        <div class="box" >
+        <ul class="link_menu">
+            <li><a href="ProjectMainPage.html"><b>Home</b></a></li>
+            <li><a href="OEpro_School_Of_Compute_%20And_Information_Technology.html"><b>School Of Computer And Information Technology</b></a></li>
+            <li> <a href="School_Of_Electrical_Electronics_And_Communication_Engineering.html"><b>School Of Electrical Electronics And Communication Engineering</b></a></li>
+            <li><a href="OEpro_school_of_%20civil_and_chemical_engineering.html"><b>School Of Civil And Chemical Engineering</b></a></li>
+            <li><a href="OEpro_school_of_automobile_mechanical_and_mechatronics.html"><b>School Of Automobile Mechanical And Mechatronics</b></a></li>
+		</ul>
+    </div>
+    <div class ="login" id="main">
+      <h1 style="color:orange">OEPRO</h1>
+    <br><h1>Login</h1>
+	<!-- <form action="OEpro_predicted.php" method="get">-->
+        <form>
+
+        <label for="registrationno">
+         REGISTRATION NO:
+         </label>
+        <input type="number"  name="registrationno" id="registrationno" required>
+        <br><label for="cgpa_label">
+         CGPA:
+         </label>
+        <input type="number" id="cgpa" value="" placeholder="0.00" step="0.01" min="0" max="10.00" name="cgpa" pattern="^\d*(\.\d{0,2})?$" required >
+        <br/><label for="semister">Semester:</label>
+        <br/><input type="radio" id="Semister_Odd" name="Semister" value="Odd" required>Odd-Semeste
+        <br/><input type="radio" id="Semister_Even" name="Semister" value="Even" required>Even-Semester
+            <br/><button type="button" onclick="main()">Submit</button>
+		</form>
+        </div>
+    <script  src="OEpro_predicted.js">
+    </script>
+</body>
+</html>
